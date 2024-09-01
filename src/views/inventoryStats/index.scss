@@ -1,0 +1,28 @@
+.stats_container {
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+
+  .card_container {
+    .item {
+      padding: 16px;
+      color: #fff;
+      background-color: #273326;
+    }
+  }
+
+  .table_container {
+    margin-top: 32px;
+
+    .action_header {
+      width: 12% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logout_btn {
+    .MuiSvgIcon-root {
+      font-size: 22px;
+    }
+  }
+}

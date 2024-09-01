@@ -1,0 +1,23 @@
+.top_nav {
+  padding: 8px 16px;
+  align-items: center;
+  flex-direction: row !important;
+
+  .content_container {
+    width: 100%;
+    margin-right: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row !important;
+  }
+
+  .divider {
+    margin: auto 0px;
+    height: 26px !important;
+    border-right-width: 2px !important;
+  }
+
+  .logout_btn {
+    margin-left: 4px;
+  }
+}

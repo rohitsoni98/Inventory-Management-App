@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+  * {
+    font-size: 8px;
+  }
+}
